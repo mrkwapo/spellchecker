@@ -11,17 +11,17 @@ app.get('/check', function(req, res) {
   console.log('GET Request');
   res.send({name: 'Nate'});
   
-  const name = req.query.name;
-  const email = getemail(users, name);
-  if (email){
-    res.send("You spelled it correctly");
-  }else{
-    res.send("Incorrect Spelling");
-  }
+//   const name = req.query.name;
+//   const email = getemail(users, name);
+//   if (email){
+//     res.send("You spelled it correctly");
+//   }else{
+//     res.send("Incorrect Spelling");
+//   }
   
   
   
-});
+// });
 
 
 //listen for requests
